@@ -24,15 +24,18 @@ module.exports = grammar({
       caseInsensitive('SHR'),
 
       caseInsensitive('ADD'),
+      caseInsensitive('SUB'),
 
       caseInsensitive('SET'),
       caseInsensitive('MOV'),
-      caseInsensitive('LOB'),
+      caseInsensitive('LOD'),
       caseInsensitive('STO'),
 
       caseInsensitive('PC'),
       caseInsensitive('LAB'),
+      caseInsensitive('LIH'),
 
+      caseInsensitive('NOP'),
       caseInsensitive('HLT'),
     ),
 
